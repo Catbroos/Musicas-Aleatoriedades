@@ -1,0 +1,128 @@
+.containerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 30px 155px;
+    height: 125px;
+    border-bottom: 2px #aaaaaa solid;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo,
+.sociais {
+    width: 25%;
+}
+
+.logo img {
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.menu {
+    width: 50%;
+}
+
+.link {
+    color: #222;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 24px;
+    position: relative;
+}
+
+.link::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #5BC241, #A4D98F);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 2px;
+    transition: width 500ms;
+}
+
+.link:hover {
+    color: #000;
+}
+
+.menu nav a:hover::after {
+    width: 80px;
+}
+
+button {
+    background-image: linear-gradient(45deg, #5BC241, #A4D98F);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.sociais button {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+button:hover {
+    transform: scale(1.25);
+    transition: transform 400ms;
+}
+
+.sociais button i {
+    font-size: 24px;
+    color: #000;
+}
+
+main {
+    padding: 0px 30px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.video {
+    display: none;
+    height: 624.5px;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.ativo {
+    display: flex;
+}
+
+.titulo-video {
+    font-size: 100px;
+}
+
+.video .link:hover::after {
+    width: 200px;
+}
+
+.video .link {
+    margin-top: 160px;
+    font-size: 48px;
+}
+
+.button-aleatorio {
+    width: 250px;
+    height: 75px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+}
