@@ -101,6 +101,11 @@ main {
     flex-direction: column;
 }
 
+.video iframe {
+    border: none;
+    border-radius: 15px;
+}
+
 .ativo {
     display: flex;
 }
