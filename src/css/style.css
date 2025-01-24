@@ -7,7 +7,7 @@
 header {
     width: 100%;
     padding: 30px 155px;
-    height: 125px;
+    height: 150px;
     border-bottom: 2px #aaaaaa solid;
     background-color: #fff;
 
@@ -30,6 +30,7 @@ header {
 
 .logo h1 {
     font-size: 35px;
+    width: 300px;
     font-weight: 400;
 }
 
@@ -40,8 +41,8 @@ header {
 .link {
     color: #222;
     text-decoration: none;
-    padding-right: 30px;
-    font-size: 24px;
+    margin-right: 30px;
+    font-size: 30px;
     position: relative;
 }
 
@@ -73,8 +74,8 @@ button {
 }
 
 .sociais button {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-right: 20px;
 }
 
@@ -84,7 +85,7 @@ button:hover {
 }
 
 .sociais button i {
-    font-size: 24px;
+    font-size: 30px;
     color: #000;
 }
 
@@ -101,13 +102,13 @@ main {
     flex-direction: column;
 }
 
+.ativo {
+    display: flex;
+}
+
 .video iframe {
     border: none;
     border-radius: 15px;
-}
-
-.ativo {
-    display: flex;
 }
 
 .titulo-video {
